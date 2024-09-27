@@ -23,8 +23,6 @@ jobs:
       - name: Build SpringBoot Server
         run: |
           chmod 700 ./mvnw
-          // 읽고 쓰는 권한만 주겠다 700
-          // 모든권한을 다 주고 싶으면 777
           ./mvnw clean package -Dtestskip
         
       - name: show Directory
