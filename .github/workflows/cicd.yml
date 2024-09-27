@@ -17,21 +17,20 @@ jobs:
       - name: Install JDK 11
         uses: actions/setup-java@v3
         with:
-          java-verstion: '11'
+          java-version: '11'
           distribution: 'temurin'
-
-      - name: Show JDK Version
+      - name: Show JDK version
         run: |
           java --version
-      - name: Show Directory
+      - name: show directory
         run: |
           ls -a
       - name: test1
         run: |
-          echo "test1 출력"
+          echo "test 출력" 
       - name: test2
         run: |
-          echo "test2 출력"
+          echo "test 출력" 
       - name: test3
         run: |
-          echo "test3 출력"
+          echo "test 출력" 
