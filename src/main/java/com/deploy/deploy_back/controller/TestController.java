@@ -19,4 +19,9 @@ public class TestController {
     public ResponseEntity<?> test() {
         return ResponseEntity.ok().body(null);
     }
+
+    @GetMapping("/test")
+    public ResponseEntity<?> test2(){
+        return ResponseEntity.ok(clientAddress + "create");
+    }
 }
