@@ -20,7 +20,7 @@ public class TestController {
         return ResponseEntity.ok().body(null);
     }
 
-    @GetMapping("/test")
+    @GetMapping("/test2")
     public ResponseEntity<?> test2(){
         return ResponseEntity.ok(clientAddress + "create");
     }
